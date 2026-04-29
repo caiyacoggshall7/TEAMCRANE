@@ -5,10 +5,22 @@ website:
   title: "Team Crane!"
   navbar:
     left:
-      - href: index.qmd
+      - href: home.qmd
         text: Home
-      - about.qmd
+      - href: ourdesign.qmd
+        text: Our Design
+      - href: mandd.qmd
+        text: Modeling and Drawings
+      - href: manda.qmd
+        text: Manufacturing and Assembly
+      - href: analysis.qmd
+        text: Analysis
+      - href: conandfuture.qmd
+        text: Conclusion and Future Work
+      - href: team.qmd
+        text: Meet the Team!
 
+      
 format:
   html:
     theme:
