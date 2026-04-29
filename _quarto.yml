@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Team Crane Website"
+  title: "Team Crane!"
   navbar:
     left:
       - href: index.qmd
@@ -16,6 +16,14 @@ format:
       - brand
     css: styles.css
     toc: true
+    math:
+      method: mathjax
+      options:
+        autoNumber: "AMS"
+      citations: true
+    link-external-icon: true
+    code-line-numbers: true
+
 
 
 
