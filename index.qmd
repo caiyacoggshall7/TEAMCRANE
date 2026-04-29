@@ -27,19 +27,21 @@ Our crane helps solve the issue of moving heavy objects. The crane allows us to 
 
 Design Specifications:
 
+<div style="text-align: left;">
+
 ### Quantitative Requirements
-* Winch and crane must be able to lift up to 50 lbs 
-* Turntable rotation around 6 RPM to keep our dynamic loads safe and manageable
-* Trolley must be able to travel 4-foot working length of jib
-* Entire structure must be able to fit through backdoors of the design studio (~ 9 feet)
+- Winch and crane must be able to lift up to 50 lbs 
+- Turntable rotation around 6 RPM to keep our dynamic loads safe and manageable
+- Trolley must be able to travel 4-foot working length of jib
+- Entire structure must be able to fit through backdoors of the design studio (~ 9 feet)
 
 ### Qualitative Requirements
-* Crane structure remain within the elastic limit under full load
-* Work under full load through battery power
-* Be simple to control through on/off winch controllers
-* Be cool as heck
+- Crane structure remain within the elastic limit under full load
+- Work under full load through battery power
+- Be simple to control through on/off winch controllers
+- Be cool as heck
 
 ### Stretch Goals
-* Winch and crane can lift up to 150 lbs (approx. weight of an average person)
-* Infinite rotation of the turntable through a slip-ring integration 
-* Crane control by operator through remote control via an integrated controller
+- Winch and crane can lift up to 150 lbs (approx. weight of an average person)
+- Infinite rotation of the turntable through a slip-ring integration 
+- Crane control by operator through remote control via an integrated controller
