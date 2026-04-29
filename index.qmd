@@ -25,7 +25,8 @@ Our crane helps solve the issue of moving heavy objects. The crane allows us to 
 
 
 
-Design Specifications:
+# Design Specifications:
+
 
 <div style="text-align: left;">
 
