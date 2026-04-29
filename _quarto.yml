@@ -33,6 +33,7 @@ format:
       citations: true
     link-external-icon: true
     code-line-numbers: true
+    page-layout: full
 
 
 
