@@ -1,0 +1,11 @@
+---
+title: "Team Crane E177 Website"
+about:
+    template: jolla
+    links:
+        - icon: github
+          text: Github
+          href: https://github.com/caiyacoggshall7/TEAMCRANE
+          
+
+---
