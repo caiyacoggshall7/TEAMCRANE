@@ -1,8 +1,16 @@
-Overall, the team was very proud of the progress they made on the coolest crane ever!
+# Conclusion
+Overall, the team was very proud of the progress they made on the coolest ammature crane ever! The size and capabilities of our crane exceeded our expected goals from the beginning of the class. 
 
+The team discovered through the build that there was additional complexity from the gear placement as the placement was very sensitive and amplified by the large forces that the motor had to turn. It caused issues for us as the gears would slip and lock if the placement were slightly off. Additionally, many of the materials we used to build our crane were scavenged around the stockroom and engineering department. Instead of being ignored, our design put them into a new perspective and showed how they could be repurposed for what we needed.
+
+
+# Future Work
 If the team had more time they’d:
 * Create a better electronic-based control system for crane 
 + With more time, we would want to have a robust control system within a more consolidated box to improve ease of use for operators. This could be done by implementing some kind of wired central computing unit. The controls required some extra electrical work that seemed a bit out of the scope of the project so we used a lot of preexisting remotes/controllers to simplify the electrical work. At the cost of removing electrical complexity, we then did not get much customability in the wiring and control interface for the crane. 
 * Build for assembly in crane design
 + A big problem we ran into during the crane assembly was not being built for assembly in mind as we integrated our mechanical components and subsystems onto our crane. Certain fasteners were overlooked when attaching components, with the result being that a certain order of assembly was required otherwise some parts could not be accessed. Once the turntable was fully assembled, components became difficult or inaccessible to move around.
-* Acquire better materials for the crane structure in order to be even more rigid
+* Acquire better materials for the crane structure
++ With more time, the team would have wanted to spend resources on stronger materials for components like the turntable lazy susan mechanism and the wooden turntable, two components that experienced lots of bending due to the large loads and needed to be supported in crafty ways like additional wood supports.
+* Combine the electrical systems
++ Since the team is controlling 3 separate mechanisms: the rotation, the trolley along the jib, and the drop winch motor; there are 3 separate hand-held controllers as well as an E-stop running power to each. This gives each user 4 things to hold/control at once, ideally with more time this could be compiled into one controller with a new 3D printed part and alternative wiring. 

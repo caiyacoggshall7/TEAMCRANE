@@ -1,22 +1,21 @@
-Manufacturing and Assembly
+# Manufacturing, Assembly, and Design Choices
+
 After slowly ordering, raiding Jacob’s stockroom cage, scavenging, and lowballing facebook marketplace sellers, the team had enough materials to start making the crane. The team mainly used the HMC Machine Shop (metal and wood) as well as the HMC Makerspace 3D Printers to fabricate all of the custom parts.
 
+See [“Our Design”](https://caiyacoggshall7.github.io/TEAMCRANE/ourdesign.html) for an overview of all the Crane subsystems.
 
-The turntable piece was a circle and square cut from a plywood piece on the ShopBot. It was screwed together with the Lazy Susan bearing and some 2 x 4’s to make the Base Box and Turntable mechanism. 
+## Turntable
+The turntable piece was a circle and square cut from a plywood piece on the ShopBot. It was screwed together with the Lazy Susan bearing and some 2 x 4’s to make the Base Box and Turntable mechanism. Some holes were later drilled into both the box and the turntable plywood pieces to allow access for bolts. This was the starting point of our bad design for assembly. 
 
-Insert drawing figure + finished figure
-
-
-The team cut a frame out of 2 by 4’s into a wooden truss to connect the turntable and jib mechanisms and act as the main body of the crane. These wooden pieces were mainly cut using the miter saw and a custom 45 degree jig.
-
-
-Insert drawing figure + finished figure
-Plus us in the truss
+The team cut a frame out of 2 by 4’s into a wooden truss to connect the turntable and jib mechanisms and act as the main body of the crane. These wooden pieces were mainly cut using the table and miter saw with a custom 45 degree jig.
 
 
-The jib was made by first cutting down two pieces of the unistrut on horizontal bandsaw to 8 ft long each. The unistrut trolleys were then placed in the unistrut channels and a scrap piece of unistrut was laid perpendicular to the two pieces and screwed into the trolleys with bolts as well as attached to the winch motor. A custom hold was also made for a stepper motor, allowing the winch motor to roll along the jib when controlled by the user.
+## Trolley Jib
+The jib was made by first cutting down two pieces of the unistrut on horizontal bandsaw to 8 ft long each. The unistrut trolleys were then placed in the unistrut channels and a scrap piece of unistrut was laid perpendicular to the two pieces and screwed into the trolleys with bolts as well as attached to the winch motor. A custom hold was also made for a stepper motor, allowing the winch motor to roll along the jib when controlled by the user. Additionally, another wheel was CADed and 3D printed to match that of a wheel we had scavenged to complete our pulley system.
 
-Insert drawing figure + finished figure
 
+## Full System
+Later in the build process, when the full truss was attached to the turntable/base, the tower would wobble a lot back and forth due to the gap between the turntable plywood piece and the top of the box. Some of this bending was happening due to the turntable lazy susan mechanism not always being in flush contact with the metal balls inside the mechanism (similar to a bearing). So the distance between metal plates of lazy susan and the balls inside was part of the gap we had. Thus, stacks of thin wood were placed on the top of the box and then secured down with strips of Teflon/a slippery white plastic (exact material unknown). The thought process being that teflon and wood have a low coefficient of friction so the turntable could still rotate around without getting stuck, and now have a higher platform i.e less of a gap i.e less wobble. 
 
-The electronics
+## Electronics
+Since all mechanisms were being powered via one battery source, lots of wires needed to connect from the base (where the battery lives) and the mechanisms that require power (like the trolley jib pulley and the drop winch). So in order to prevent wires from twisting around each other from the turntable mechanism, a slip ring was implemented and wires were threaded through the hollow shaft in the middle of the turntable, and up through the wooden truss.

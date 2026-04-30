@@ -10,7 +10,7 @@ website:
       - href: mandd.qmd
         text: Modeling and Drawings
       - href: manda.qmd
-        text: Manufacturing and Assembly
+        text: Manufacturing, Assembly, and Design Choices
       - href: analysis.qmd
         text: Analysis
       - href: conandfuture.qmd
