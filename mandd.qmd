@@ -1,0 +1,17 @@
+# Modeling and Design
+
+The team made a full assembly CAD model of the Crane with placeholders for some of the electrical components like the battery source. This gave them a good idea of some of the spacing available for supports around the center shaft. 
+
+
+![Full Cad of CRANE!](images/fullcad.png)
+
+![Subassembly of Turntable Gears](images/gearsub.png)
+
+![Subassembly of Trolley Jib](images/trolleyjibsub.png)
+
+![Subassembly of Drop Winch](images/dropwinchtrolleysub.png)
+
+![Subassembly of Truss and Jib](images/trussunisub.png)
+
+# Technical Drawings
+The team's technical drawing package is linked below. 
