@@ -6,6 +6,7 @@ The team discovered through the build that there was additional complexity from 
 
 # Future Work
 If the team had more time they’d:
+
 1. ### Create a better electronic-based control system for crane 
 With more time, we would want to have a robust control system within a more consolidated box to improve ease of use for operators. This could be done by implementing some kind of wired central computing unit. The controls required some extra electrical work that seemed a bit out of the scope of the project so we used a lot of preexisting remotes/controllers to simplify the electrical work. At the cost of removing electrical complexity, we then did not get much customability in the wiring and control interface for the crane. 
 
