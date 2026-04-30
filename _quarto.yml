@@ -17,6 +17,8 @@ website:
         text: Conclusion and Future Work
       - href: team.qmd
         text: Meet the Team!
+      - href: gallery.qmd
+        text: Photo Gallery
 
       
 format:
