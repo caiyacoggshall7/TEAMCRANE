@@ -1,0 +1,11 @@
+# Analysis
+
+Below is our analysis of various components of our Crane.
+
+![Gear Bearing Lifetime Analysis](images/cranecalc1.png)
+
+![Gear Bearing Lifetime Analysis](images/cranecalc2.png)
+
+![Turntable Efficiency](images/turneff.png)
+
+![Winch Motor Torque Curve](images/torquecurve.png)

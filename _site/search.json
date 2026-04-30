@@ -105,6 +105,13 @@
     "text": "Since all mechanisms were being powered via one battery source, lots of wires needed to connect from the base (where the battery lives) and the mechanisms that require power (like the trolley jib pulley and the drop winch). So in order to prevent wires from twisting around each other from the turntable mechanism, a slip ring was implemented and wires were threaded through the hollow shaft in the middle of the turntable, and up through the wooden truss."
   },
   {
+    "objectID": "mandd.html",
+    "href": "mandd.html",
+    "title": "Modeling and Design",
+    "section": "",
+    "text": "Modeling and Design\nThe team made a full assembly CAD model of the Crane with placeholders for some of the electrical components like the battery source. This gave them a good idea of some of the spacing available for supports around the center shaft.\n\n\n\nFull Cad of CRANE!\n\n\n\n\n\nSubassembly of Turntable Gears\n\n\n\n\n\nSubassembly of Trolley Jib\n\n\n\n\n\nSubassembly of Drop Winch\n\n\n\n\n\nSubassembly of Truss and Jib\n\n\n\n\nTechnical Drawings\nThe team’s technical drawing package is linked below."
+  },
+  {
     "objectID": "conandfuture.html",
     "href": "conandfuture.html",
     "title": "Conclusion",
