@@ -1,32 +1,43 @@
+# Our Design
 Our main goal was to design a structure that could support a 200lb person and a turntable that can spin under that load. Our design has three main mechanical subsystems: a turntable, a trolley that translates along the jib, and a winch to hoist the load. We also designed the crane with structural stability in mind to be capable of supporting the forces and moments caused by lifting a heavy payload. 
 
 
-Turntable
-The team evaluated methods of rotation around the base and landed on a lazy susan mechanism. In order to power this mechanism, the team utilized a 2500 lbf winch motor, similar to the one used for the Hoisting Mechanism due to its availability in the Harvey Mudd College stockroom. The spool was removed and a shaft was attached to the drive spline on the motor. We scavenged a large, 80-tooth 1.5-mod gear from a past clinic project, and purchased a matching 16-tooth spur gear to achieve a 1:5 gear ratio. Without any load, the turntable spins at about _____ RPM and depending on the load will spin from The small gear is attached to the drive shaft, and the larger gear is directly attached to the turntable
+
+## Turntable
+The team evaluated methods of rotation around the base and landed on a lazy susan mechanism. In order to power this mechanism, the team utilized a 2500 lbf winch motor, similar to the one used for the Hoisting Mechanism due to its availability in the Harvey Mudd College stockroom. The spool was removed and a shaft was attached to the drive spline on the motor. We scavenged a large, 80-tooth 1.5-mod gear from a past clinic project, and purchased a matching 16-tooth spur gear to achieve a 1:5 gear ratio. Without any load, the turntable spins at about 6 RPM and depending on the load will spin from The small gear is attached to the drive shaft, and the larger gear is directly attached to the turntable
 
 
-Shaft Supports
-In order to ensure that the motor shaft aligns well when interfacing with other gears and to counteract the tangential loads from the gears, the shaft itself is supported when spinning. Thus, the team designed and printed pillow blocks to bolt against the metal and hold the shaft a fixed distance from the support. The pillow blocks are high-infill 3d prints with press-fit bearings sized to the shaft diameters. The supports were constructed from wood for structural purposes combined with precisely machined aluminum for accurate hole-placement
+1. ### Shaft Supports
+In order to ensure that the motor shaft aligns well when interfacing with other gears and to counteract the tangential loads from the gears, the shaft itself is supported when spinning. Thus, the team designed and printed pillow blocks to bolt against the metal and hold the shaft a fixed distance from the support. The pillow blocks are high-infill 3d prints with press-fit bearings sized to the shaft diameters. The supports were constructed from wood for structural purposes combined with precisely machined aluminum for accurate hole-placement.
 
-Power System
+
+
+## Power System
 We used a single 12V power source. Due to the high power requirements at low-voltage, the system handles high current, requiring low-gauge wiring.
 
-Safety
-E-stop, physical button for hoisting load, trolley drive can slip to prevent damage
 
-Slip Ring
-The slip ring allows for conntinuous electrical contact over infinite rotational range, without twisting wires. This is an elegant solution for our stretch goal of unlimited rotation that lets us use a single power source
+1. ### Safety
+E-stop, physical button for hoisting load, trolley drive can slip to prevent damage.
 
-Stepper Motor Control
-Controlling a stepper motor requires precise timing and switching. We used a off-the-shelf stepper motor controller to avoid engineering a solution to this problem. We used the ZK-SMC02 motor controller.
+2. ### Slip Ring
+The slip ring allows for continuous electrical contact over infinite rotational range, without twisting wires. This is an elegant solution for our stretch goal of unlimited rotation that lets us use a single power source
 
-Robust construction
+3. ### Stepper Motor Control
+Controlling a stepper motor requires precise timing and switching. We used an off-the-shelf stepper motor controller to avoid engineering a solution to this problem. We used the ZK-SMC02 motor controller.
 
-Base
+
+
+## Robust construction
+The team carefully crafted all of the parts to be as robust as possible given they would be experiencing extreme loads.
+
+
+1. ### Base
 The base was constructed from ¾” plywood with four vertical supports on the corners. The supports are each two pieces of 2x4. On the top part of the base, there is a lazy suzan bearing rated for 1000lbs, which is much greater than our expected load. The turntable is made of the same ¾” plywood and driven by a large flange bolted to it.
 
-Truss
+2. ### Wooden Truss
+The truss was constructed from long 2x4 pieces. In order to connect the 4 edges together, a diagonal zigzag pattern was implemented to support the weight under tension. They were attached together with standard wood screws with the complete structure measuring in at 13’’ x 17’’ x 72‘’ . This truss was connected to the turntable plywood via small 2x4 placement blocks with long bolts. This made the truss easily detachable from the turntable so the two pieces could be moved separately while still maintaining alignment.
 
-Jib/Trolley
-We chose to make the jib out of galvanized unistrut supported by ¼” stainless steel cables in tension over a tower. The trolley, onto which the winch is bolted, is also made of unistrut and rolls along the jib on two 
+3. ### Jib/Trolley
+We chose to make the jib out of galvanized unistrut supported by ¼” stainless steel cables in tension over a tower. The trolley, onto which the winch is bolted, is also made of unistrut and rolls along the jib on two strut channels that are also bolted to the trolley unistrut piece. 
+	
 	
