@@ -17,7 +17,7 @@ Tower cranes are one of the most recognizable, hard-to-miss pieces of constructi
 
 Part of the questions we had on them was how something this tall yet slender manages to hold up heavy loads without toppling over. From our research into crane designs, it is done through a combination of structural design, balance through a counterweight system, and reasonable mechanical drive systems. 
 
-![OUR CRANE](images/fullcrane.png)
+![US AND OUR CRANE](images/usandcrane.png)
 
 For our Mechanical Design Final Project, we built a modestly scaled, functional tower crane. A tower crane was chosen over other types of cranes because of its rigid, stationary structure that would maximize strength while simplifying the design process to focus only the tower crane’s main three directions of motion: a turntable for rotation (yaw), a winch that lifts or lowers a payload, and a trolley that carries a winch along the jib.
 
